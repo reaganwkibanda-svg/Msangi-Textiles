@@ -1,0 +1,7 @@
+---
+
+### 6. robots.txt
+
+```text
+User-agent: *
+Allow: /
