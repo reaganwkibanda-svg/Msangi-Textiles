@@ -1,295 +1,645 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MSANGI TEXTILES | Premium Fabrics in Tanzania</title>
-  <meta name="description" content="Discover premium cotton, khanga, vitenge, lace, silk, uniform, curtain and upholstery fabrics from MSANGI TEXTILES in Tanzania. Retail and wholesale enquiries welcome.">
-  <meta name="keywords" content="textiles Tanzania, fabrics Tanzania, khanga, vitenge, Ankara, lace, cotton, uniform materials, wholesale fabrics, MSANGI TEXTILES">
-  <meta name="author" content="MSANGI TEXTILES">
-  <meta name="theme-color" content="#0f172a">
-  <link rel="canonical" href="https://msangitextiles.co.tz/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="MSANGI TEXTILES | Premium Fabrics in Tanzania">
-  <meta property="og:description" content="Premium fabrics, dependable service, and retail or wholesale supply for Tanzania's makers, schools, boutiques and homes.">
-  <meta property="og:url" content="https://msangitextiles.co.tz/">
-  <meta property="og:image" content="https://msangitextiles.co.tz/assets/images/social-preview.svg">
-  <meta property="og:locale" content="en_TZ">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MSANGI TEXTILES | Premium Fabrics in Tanzania">
-  <meta name="twitter:description" content="Premium fabrics for fashion, uniforms, interiors and special occasions.">
-  <meta name="twitter:image" content="https://msangitextiles.co.tz/assets/images/social-preview.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-  <script>
-    document.documentElement.dataset.theme = localStorage.getItem('msangi-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.documentElement.lang = localStorage.getItem('msangi-language') || 'en';
-  </script>
-  <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FabricStore",
-    "name": "MSANGI TEXTILES",
-    "description": "Premium textile supplier serving retail and wholesale customers in Tanzania.",
-    "url": "https://msangitextiles.co.tz/",
-    "image": "https://msangitextiles.co.tz/assets/images/social-preview.svg",
-    "telephone": "+255700000000",
-    "email": "hello@msangitextiles.co.tz",
-    "priceRange": "TZS",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Textile Market District",
-      "addressLocality": "Dar es Salaam",
-      "addressCountry": "TZ"
-    },
-    "openingHoursSpecification": [
-      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}
-    ],
-    "sameAs": ["https://instagram.com/", "https://tiktok.com/", "https://facebook.com/"]
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Msangi Textiles | Luxury African Fashion & Vitenge</title>
+    <meta name="description" content="Discover exquisite luxury African fashion, custom Vitenge designs, and timeless handcrafted attire by Madam Rita.">
+    <link rel="canonical" href="https://msangi-textiles.netlify.app/">
+    
+    <!-- Open Graph Metadata Placeholders -->
+    <meta property="og:title" content="Msangi Textiles | Luxury African Fashion">
+    <meta property="og:description" content="Handcrafted luxury African fashion and bespoke Vitenge wear.">
+    <meta property="og:image" content="assets/images/hero/vitenge-vizuri9.JPG">
+    <meta property="og:url" content="[WEBSITE URL]">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon Placeholders -->
+    <link rel="icon" href="assets/images/logo/favicon-32x32.PNG" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.PNG">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
 
-  <div class="loader" id="loader" aria-hidden="true">
-    <div class="loader__mark"><span>M</span></div>
-    <p>MSANGI TEXTILES</p>
-  </div>
-
-  <header class="site-header" id="siteHeader">
-    <nav class="nav container" aria-label="Main navigation" data-i18n-aria="mainNavLabel">
-      <a class="brand" href="#home" aria-label="MSANGI TEXTILES home">
-        <span class="brand__mark" aria-hidden="true">M</span>
-        <span class="brand__text">MSANGI <small>TEXTILES</small></span>
-      </a>
-
-      <div class="nav__menu" id="navMenu">
-        <a class="nav__link active" href="#home" data-i18n="navHome">Home</a>
-        <a class="nav__link" href="#about" data-i18n="navAbout">About</a>
-        <a class="nav__link" href="#products" data-i18n="navProducts">Products</a>
-        <a class="nav__link" href="#services" data-i18n="navServices">Services</a>
-        <a class="nav__link" href="#gallery" data-i18n="navGallery">Gallery</a>
-        <a class="nav__link" href="#contact" data-i18n="navContact">Contact</a>
-      </div>
-
-      <div class="nav__actions">
-        <button class="icon-button language-toggle" id="languageToggle" type="button" aria-label="Change language" data-i18n-aria="languageLabel">
-          <span aria-hidden="true">EN</span>
-        </button>
-        <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Change color theme" data-i18n-aria="themeLabel">
-          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
-          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 0 1 9.7 3.5 8.5 8.5 0 1 0 20.5 14.3Z"/></svg>
-        </button>
-        <a class="button button--small nav__cta" href="#contact" data-i18n="requestQuote">Request a quote</a>
-        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu" data-i18n-aria="menuLabel"><span></span><span></span></button>
-      </div>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero section" id="home" aria-labelledby="hero-title">
-      <div class="hero__texture" aria-hidden="true"></div>
-      <div class="hero__orb hero__orb--one" aria-hidden="true"></div>
-      <div class="hero__orb hero__orb--two" aria-hidden="true"></div>
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <p class="eyebrow hero__eyebrow" data-i18n="heroEyebrow">Tanzania's premium fabric destination</p>
-          <h1 id="hero-title"><span data-i18n="heroTitleOne">Fabric with</span> <em data-i18n="heroTitleAccent">character.</em><br><span data-i18n="heroTitleTwo">Service with care.</span></h1>
-          <p class="hero__lead" data-i18n="heroLead">Exceptional textiles for designers, tailors, schools, homes and brands—carefully selected for quality, beauty and lasting value.</p>
-          <div class="hero__actions">
-            <a class="button button--accent" href="#products"><span data-i18n="exploreFabrics">Explore fabrics</span><span aria-hidden="true">↗</span></a>
-            <a class="button button--ghost" href="#" data-contact="whatsapp"><span data-i18n="chatWhatsApp">Chat on WhatsApp</span><span aria-hidden="true">→</span></a>
-          </div>
-          <div class="hero__trust" aria-label="Business highlights" data-i18n-aria="trustLabel">
-            <div><strong>500+</strong><span data-i18n="happyClients">Happy clients</span></div>
-            <div><strong>14+</strong><span data-i18n="fabricTypes">Fabric categories</span></div>
-            <div><strong>2</strong><span data-i18n="orderOptions">Retail & wholesale</span></div>
-          </div>
-        </div>
-
-        <div class="hero__visual" data-parallax="0.08">
-          <div class="hero__image-frame">
-            <img src="assets/images/vitenge-vizuri-gauni.jpg" alt="Layered premium blue, gold and green fabrics" width="720" height="820">
-            <div class="hero__image-label"><span data-i18n="curatedLabel">Curated in Tanzania</span><strong>MSANGI / 2026</strong></div>
-          </div>
-          <div class="floating-card floating-card--top"><span class="status-dot"></span><span data-i18n="qualityChecked">Quality checked</span></div>
-          <div class="floating-card floating-card--bottom"><strong data-i18n="newArrivals">New arrivals</strong><span data-i18n="weekly">Every week</span></div>
-        </div>
-      </div>
-      <a class="scroll-cue" href="#about"><span data-i18n="discoverMore">Discover more</span><i aria-hidden="true"></i></a>
-    </section>
-
-    <section class="about section" id="about" aria-labelledby="about-title">
-      <div class="container about__grid">
-        <div class="about__visual reveal">
-          <div class="image-card image-card--main"><img src="assets/images/vitenge-vizuri-vijora.jpg" alt="Textile specialist arranging premium fabric rolls" loading="lazy" width="680" height="760"></div>
-          <div class="about__stamp" aria-hidden="true"><span>QUALITY • CARE • TANZANIA •</span><strong>MT</strong></div>
-          <div class="about__note"><strong data-i18n="trustedSupply">Trusted supply</strong><span data-i18n="forEveryVision">For every creative vision</span></div>
-        </div>
-        <div class="about__content reveal">
-          <p class="eyebrow" data-i18n="aboutEyebrow">Our story, woven with purpose</p>
-          <h2 id="about-title" data-i18n="aboutTitle">More than fabric. A partner in what you create.</h2>
-          <p class="lead" data-i18n="aboutLead">MSANGI TEXTILES connects Tanzanian makers and businesses with textiles they can trust. Every selection balances beauty, performance and value.</p>
-          <p data-i18n="aboutBody">Whether you need one special piece or reliable wholesale supply, our team helps you compare materials, understand options and choose with confidence.</p>
-          <div class="about__values">
-            <div><span>01</span><h3 data-i18n="valueQuality">Uncompromising quality</h3><p data-i18n="valueQualityBody">Carefully reviewed fabrics selected for feel, finish and durability.</p></div>
-            <div><span>02</span><h3 data-i18n="valueGuidance">Honest guidance</h3><p data-i18n="valueGuidanceBody">Practical recommendations based on your purpose and budget.</p></div>
-          </div>
-          <a class="text-link" href="#contact"><span data-i18n="talkTeam">Talk to our textile team</span><span aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="products section section--tinted" id="products" aria-labelledby="products-title">
-      <div class="container">
-        <div class="section-heading reveal">
-          <div><p class="eyebrow" data-i18n="productsEyebrow">Featured selection</p><h2 id="products-title" data-i18n="productsTitle">Fabrics chosen to make an impression.</h2></div>
-          <p data-i18n="productsIntro">Explore customer favourites across fashion, ceremony, uniform and interior applications. Ask us for current colours and stock.</p>
-        </div>
-        <div class="product-grid" id="productGrid" aria-live="polite"></div>
-        <div class="section-action reveal"><a class="button button--dark" href="#categories"><span data-i18n="viewCategories">View all categories</span><span aria-hidden="true">↓</span></a></div>
-      </div>
-    </section>
-
-    <section class="categories section" id="categories" aria-labelledby="categories-title">
-      <div class="container">
-        <div class="section-heading section-heading--center reveal"><div><p class="eyebrow" data-i18n="categoriesEyebrow">A textile for every idea</p><h2 id="categories-title" data-i18n="categoriesTitle">Shop by category.</h2></div><p data-i18n="categoriesIntro">From everyday essentials to statement materials, find the right foundation for your next project.</p></div>
-        <div class="category-grid" id="categoryGrid"></div>
-      </div>
-    </section>
-
-    <section class="why section section--dark" id="why" aria-labelledby="why-title">
-      <div class="container why__grid">
-        <div class="why__intro reveal">
-          <p class="eyebrow eyebrow--light" data-i18n="whyEyebrow">The MSANGI standard</p>
-          <h2 id="why-title" data-i18n="whyTitle">Confidence in every metre.</h2>
-          <p data-i18n="whyIntro">A premium experience is not only about the product. It is how clearly you are advised, how reliably you are served, and how confidently you leave.</p>
-          <a class="button button--light" href="#contact"><span data-i18n="startEnquiry">Start an enquiry</span><span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="why__list">
-          <article class="why-card reveal"><span class="why-card__number">01</span><div><h3 data-i18n="whyOne">Quality-first sourcing</h3><p data-i18n="whyOneBody">We prioritise feel, colour, finish and dependable performance.</p></div></article>
-          <article class="why-card reveal"><span class="why-card__number">02</span><div><h3 data-i18n="whyTwo">Retail and wholesale</h3><p data-i18n="whyTwoBody">Flexible quantities for personal projects, teams and growing businesses.</p></div></article>
-          <article class="why-card reveal"><span class="why-card__number">03</span><div><h3 data-i18n="whyThree">Responsive support</h3><p data-i18n="whyThreeBody">Fast, practical assistance through WhatsApp and in-store consultation.</p></div></article>
-          <article class="why-card reveal"><span class="why-card__number">04</span><div><h3 data-i18n="whyFour">Choice with guidance</h3><p data-i18n="whyFourBody">A broad range made easier by recommendations tailored to your use.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="services section" id="services" aria-labelledby="services-title">
-      <div class="container">
-        <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="servicesEyebrow">Made easier for you</p><h2 id="services-title" data-i18n="servicesTitle">Support beyond the shelf.</h2></div><p data-i18n="servicesIntro">We help individuals and organisations source with less uncertainty and more confidence.</p></div>
-        <div class="service-grid">
-          <article class="service-card reveal"><span class="service-card__icon" aria-hidden="true">✦</span><h3 data-i18n="serviceOne">Personal fabric guidance</h3><p data-i18n="serviceOneBody">Tell us the occasion, design or function. We help narrow down suitable fabrics.</p><a href="#contact" data-i18n="learnMore">Learn more</a></article>
-          <article class="service-card reveal"><span class="service-card__icon" aria-hidden="true">◇</span><h3 data-i18n="serviceTwo">Wholesale supply</h3><p data-i18n="serviceTwoBody">Consistent sourcing support for boutiques, schools, brands and uniform suppliers.</p><a href="#contact" data-i18n="learnMore">Learn more</a></article>
-          <article class="service-card reveal"><span class="service-card__icon" aria-hidden="true">⌁</span><h3 data-i18n="serviceThree">Remote ordering</h3><p data-i18n="serviceThreeBody">Ask about available colours and materials, receive assistance, and arrange your order remotely.</p><a href="#contact" data-i18n="learnMore">Learn more</a></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="statistics" aria-label="Company statistics" data-i18n-aria="statsLabel">
-      <div class="container stats-grid">
-        <div class="stat reveal"><strong data-count="500" data-suffix="+">0</strong><span data-i18n="statClients">Customers served</span></div>
-        <div class="stat reveal"><strong data-count="14" data-suffix="+">0</strong><span data-i18n="statCategories">Fabric categories</span></div>
-        <div class="stat reveal"><strong data-count="98" data-suffix="%">0</strong><span data-i18n="statSatisfaction">Customer satisfaction</span></div>
-        <div class="stat reveal"><strong data-count="6" data-suffix="">0</strong><span data-i18n="statSupport">Weekly service</span></div>
-      </div>
-    </section>
-
-    <section class="gallery section section--tinted" id="gallery" aria-labelledby="gallery-title">
-      <div class="container">
-        <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="galleryEyebrow">Texture, colour, possibility</p><h2 id="gallery-title" data-i18n="galleryTitle">Inside our fabric world.</h2></div><p data-i18n="galleryIntro">A closer look at materials selected for fashion, celebration, work and beautiful spaces.</p></div>
-        <div class="gallery-grid" id="galleryGrid"></div>
-      </div>
-    </section>
-
-    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
-      <div class="container testimonials__layout">
-        <div class="testimonials__heading reveal"><p class="eyebrow" data-i18n="testimonialsEyebrow">Client stories</p><h2 id="testimonials-title" data-i18n="testimonialsTitle">Chosen by people who care about quality.</h2><div class="slider-controls"><button id="testimonialPrev" type="button" aria-label="Previous testimonial" data-i18n-aria="previousLabel">←</button><button id="testimonialNext" type="button" aria-label="Next testimonial" data-i18n-aria="nextLabel">→</button></div></div>
-        <div class="testimonial-slider reveal" id="testimonialSlider" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <section class="faq section section--tinted" id="faq" aria-labelledby="faq-title">
-      <div class="container faq__layout">
-        <div class="faq__heading reveal"><p class="eyebrow" data-i18n="faqEyebrow">Before you order</p><h2 id="faq-title" data-i18n="faqTitle">Questions, answered clearly.</h2><p data-i18n="faqIntro">Need something specific? Send us a message and our team can guide you.</p><a class="text-link" href="#contact"><span data-i18n="askQuestion">Ask another question</span><span aria-hidden="true">→</span></a></div>
-        <div class="accordion" id="faqAccordion"></div>
-      </div>
-    </section>
-
-    <section class="contact section" id="contact" aria-labelledby="contact-title">
-      <div class="container">
-        <div class="contact__shell">
-          <div class="contact__details reveal">
-            <p class="eyebrow eyebrow--light" data-i18n="contactEyebrow">Let's find your fabric</p>
-            <h2 id="contact-title" data-i18n="contactTitle">Tell us what you are creating.</h2>
-            <p data-i18n="contactIntro">Share your idea, quantity and preferred colours. We will help you find the most suitable option.</p>
-            <address class="contact-list">
-              <a href="#" data-contact="maps"><span aria-hidden="true">⌖</span><span><small data-i18n="addressLabel">Visit us</small><strong data-i18n="addressValue">Textile Market District, Dar es Salaam</strong></span></a>
-              <a href="#" data-contact="phone"><span aria-hidden="true">☎</span><span><small data-i18n="phoneLabel">Call us</small><strong>+255 700 000 000</strong></span></a>
-              <a href="#" data-contact="email"><span aria-hidden="true">✉</span><span><small data-i18n="emailLabel">Email us</small><strong>hello@msangitextiles.co.tz</strong></span></a>
-              <div><span aria-hidden="true">◷</span><span><small data-i18n="hoursLabel">Business hours</small><strong data-i18n="hoursValue">Mon–Sat · 8:00 AM–6:00 PM</strong></span></div>
-            </address>
-            <div class="contact__socials"><a href="#" data-contact="instagram" aria-label="Instagram">ig</a><a href="#" data-contact="tiktok" aria-label="TikTok">tk</a><a href="#" data-contact="facebook" aria-label="Facebook">fb</a></div>
-          </div>
-
-          <div class="contact__form-wrap reveal">
-            <form class="contact-form" id="contactForm" name="textile-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
-              <input type="hidden" name="form-name" value="textile-enquiry">
-              <input type="hidden" name="subject" value="New MSANGI TEXTILES enquiry">
-              <p class="honeypot"><label>Do not fill this out: <input name="bot-field"></label></p>
-              <div class="form-heading"><h3 data-i18n="formTitle">Request fabric assistance</h3><p data-i18n="formIntro">We usually respond during business hours.</p></div>
-              <div class="form-row">
-                <label><span data-i18n="nameLabel">Full name</span><input type="text" name="name" required autocomplete="name" data-i18n-placeholder="namePlaceholder" placeholder="Your full name"><small class="field-error"></small></label>
-                <label><span data-i18n="contactFieldLabel">Phone or WhatsApp</span><input type="tel" name="phone" required autocomplete="tel" data-i18n-placeholder="contactPlaceholder" placeholder="e.g. +255..."><small class="field-error"></small></label>
-              </div>
-              <label><span data-i18n="emailOptionalLabel">Email address (optional)</span><input type="email" name="email" autocomplete="email" data-i18n-placeholder="emailPlaceholder" placeholder="you@example.com"><small class="field-error"></small></label>
-              <label><span data-i18n="interestLabel">What are you interested in?</span><select name="interest" required><option value="" data-i18n="selectOption">Select a category</option><option value="fashion" data-i18n="optionFashion">Fashion fabrics</option><option value="uniform" data-i18n="optionUniform">School & uniform materials</option><option value="interior" data-i18n="optionInterior">Curtain & upholstery fabrics</option><option value="wholesale" data-i18n="optionWholesale">Wholesale supply</option><option value="other" data-i18n="optionOther">Other enquiry</option></select><small class="field-error"></small></label>
-              <label><span data-i18n="messageLabel">Tell us what you need</span><textarea name="message" rows="5" required data-i18n-placeholder="messagePlaceholder" placeholder="Fabric type, colour, quantity and intended use..."></textarea><small class="field-error"></small></label>
-              <button class="button button--accent button--full" type="submit"><span data-i18n="sendEnquiry">Send enquiry</span><span aria-hidden="true">→</span></button>
-              <p class="form-note" data-i18n="privacyNote">By sending, you agree that we may contact you about this enquiry.</p>
-            </form>
-          </div>
-        </div>
-        <div class="map-card reveal"><div class="map-card__pattern" aria-hidden="true"></div><div><span class="map-pin" aria-hidden="true">M</span><h3 data-i18n="mapTitle">Find MSANGI TEXTILES</h3><p data-i18n="mapBody">Replace this placeholder with your verified Google Maps location before launch.</p><a class="button button--small button--dark" href="#" data-contact="maps" data-i18n="openMaps">Open in Maps</a></div></div>
-      </div>
-    </section>
-
-    <section class="whatsapp-cta section" aria-labelledby="whatsapp-title">
-      <div class="container whatsapp-cta__shell reveal">
-        <div><p class="eyebrow eyebrow--light" data-i18n="whatsappEyebrow">Prefer a quick conversation?</p><h2 id="whatsapp-title" data-i18n="whatsappTitle">Your next project can start with one message.</h2><p data-i18n="whatsappBody">Ask about stock, colours, quantities or wholesale options directly on WhatsApp.</p></div>
-        <a class="button button--whatsapp" href="#" data-contact="whatsapp"><span class="whatsapp-symbol" aria-hidden="true">◉</span><span data-i18n="openWhatsApp">Open WhatsApp</span><span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div class="footer__brand"><a class="brand brand--footer" href="#home"><span class="brand__mark">M</span><span class="brand__text">MSANGI <small>TEXTILES</small></span></a><p data-i18n="footerAbout">Premium textiles, thoughtful guidance and dependable supply for Tanzania's makers, businesses and homes.</p></div>
-      <div><h2 data-i18n="footerExplore">Explore</h2><a href="#about" data-i18n="navAbout">About</a><a href="#products" data-i18n="navProducts">Products</a><a href="#services" data-i18n="navServices">Services</a><a href="#gallery" data-i18n="navGallery">Gallery</a></div>
-      <div><h2 data-i18n="footerHelp">Customer help</h2><a href="#faq" data-i18n="faqLink">Frequently asked questions</a><a href="#contact" data-i18n="contactLink">Contact our team</a><a href="#" data-contact="whatsapp" data-i18n="wholesaleLink">Wholesale enquiries</a></div>
-      <div><h2 data-i18n="footerVisit">Visit & connect</h2><p data-i18n="footerAddress">Textile Market District<br>Dar es Salaam, Tanzania</p><div class="footer__socials"><a href="#" data-contact="instagram">Instagram</a><a href="#" data-contact="tiktok">TikTok</a><a href="#" data-contact="facebook">Facebook</a></div></div>
+    <!-- =========================
+       FLOATING SOCIAL ACTION BAR
+    ========================= -->
+    <div class="floating-social-bar" aria-label="Quick social links">
+        <a href="https://wa.me/255755765573" class="floating-social-btn whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Chat">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </a>
+        <a href="https://www.instagram.com/msangi_textiles1/" class="floating-social-btn instagram" target="_blank" rel="noopener" aria-label="Instagram Profile">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+        <a href="https://www.tiktok.com/@madam_ritha" class="floating-social-btn tiktok" target="_blank" rel="noopener" aria-label="TikTok Profile">
+            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+        </a>
     </div>
-    <div class="container footer__bottom"><p>© <span id="currentYear"></span> MSANGI TEXTILES. <span data-i18n="rightsReserved">All rights reserved.</span></p><p data-i18n="footerTagline">Quality you can feel.</p></div>
-  </footer>
 
-  <div class="floating-socials" aria-label="Quick contact" data-i18n-aria="quickContactLabel">
-    <a href="#" data-contact="whatsapp" aria-label="WhatsApp"><span>◉</span><small>WhatsApp</small></a>
-    <a href="#" data-contact="instagram" aria-label="Instagram"><span>◎</span><small>Instagram</small></a>
-    <a href="#" data-contact="phone" aria-label="Phone"><span>☎</span><small data-i18n="phoneLabel">Call us</small></a>
-  </div>
-  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" data-i18n-aria="backTopLabel">↑</button>
+    <!-- =========================
+       1. ANNOUNCEMENT BAR
+    ========================= -->
+    <div class="announcement-bar">
+        <div class="container announcement-content">
+            <p data-en="✨ New Collection Available | Handmade African Fashion | Custom Orders Open" data-sw="✨ Mkusanyiko Mpya Unapatikana | Mitindo ya Kiafrika Iliyotengenezwa kwa Mkono | Oda Maalum Zimefunguliwa">✨ New Collection Available | Handmade African Fashion | Custom Orders Open</p>
+            <a href="#contact" class="announcement-link" data-en="Inquire Now" data-sw="Uliza Sasa">Inquire Now</a>
+        </div>
+    </div>
 
-  <dialog class="lightbox" id="lightbox" aria-label="Image preview" data-i18n-aria="lightboxLabel">
-    <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close preview" data-i18n-aria="closeLabel">×</button>
-    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Previous image" data-i18n-aria="previousLabel">←</button>
-    <figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
-    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Next image" data-i18n-aria="nextLabel">→</button>
-  </dialog>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <!-- =========================
+       2. NAVIGATION
+    ========================= -->
+    <header class="site-header" id="masthead">
+        <div class="container nav-container">
+            <!-- ALIVE ANIMATED BRAND LOGO (Supports Image + Editable Text Name) -->
+            <a href="#" class="brand-logo alive-logo" aria-label="Msangi Textiles Home">
+                <span class="logo-icon-wrapper">
+                    <img src="assets/images/logo/favicon-32x32.PNG" alt="Brand Logo Icon" class="logo-image-file" onerror="this.style.display='none'">
+                    <span class="logo-sparkle">✨</span>
+                </span>
+                <span class="logo-text">Msangi Textiles</span>
+            </a>
+            
+            <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active" data-en="Home" data-sw="Nyumbani">Home</a></li>
+                    <li><a href="#collections" class="nav-link" data-en="Collections" data-sw="Makusanyo">Collections</a></li>
+                    <li><a href="#about" class="nav-link" data-en="About" data-sw="Kuhusu">About</a></li>
+                    <li><a href="#gallery" class="nav-link" data-en="Gallery" data-sw="Nyumba ya Sanaa">Gallery</a></li>
+                    <li><a href="#craftsmanship" class="nav-link" data-en="Services" data-sw="Huduma">Services</a></li>
+                    <li><a href="#contact" class="nav-link" data-en="Contact" data-sw="Mawasiliano">Contact</a></li>
+                </ul>
+            </nav>
 
-  <script src="script.js" defer></script>
+            <div class="nav-actions">
+                <!-- Theme Mode Toggle Button -->
+                <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark/light mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+
+                <!-- Language Toggle Button -->
+                <button class="lang-toggle-btn" id="langToggleBtn" aria-label="Switch Language">
+                    <span id="currentLangIndicator">SW</span>
+                </button>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+<!-- =========================
+            3. HERO SECTION
+        ========================= -->
+        <section class="hero-section">
+            <div class="hero-background">
+                <!-- Background Video replacing the old img tag -->
+                <video autoplay muted loop playsinline class="hero-video" width="1920" height="1080">
+                    <source src="assets/images/hero/videos/vitenge-vizuri-mnazi.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content">
+                <span class="hero-subtitle" data-en="High African Fashion & Craftsmanship" data-sw="Mitindo ya Juu ya Kiafrika na Ufundi">High African Fashion & Craftsmanship</span>
+                <h1 class="hero-title" data-en="Where African Heritage Meets Modern Elegance." data-sw="Pale Urithi wa Kiafrika Unapokutana na Urembo wa Kisasa.">Where African Heritage Meets Modern Elegance.</h1>
+                <p class="hero-description" data-en="Immerse yourself in meticulously tailored Vitenge designs, striking patterns, and luxurious silhouettes crafted for the modern individual." data-sw="Jitumbukize katika miundo ya Vitenge iliyoshonwa kwa ustadi, michoro ya kuvutia, na mitindo ya kifahari iliyoundwa kwa ajili ya mtu wa kisasa.">Immerse yourself in meticulously tailored Vitenge designs, striking patterns, and luxurious silhouettes crafted for the modern individual.</p>
+                <div class="hero-actions">
+                    <a href="#collections" class="btn btn-primary" data-en="Explore Collections" data-sw="Chunguza Makusanyo">Explore Collections</a>
+                    <a href="#contact" class="btn btn-outline" data-en="Request Custom Design" data-sw="Omba Muundo Maalum">Request Custom Design</a>
+                </div>
+            </div>
+        </section>
+        <!-- =========================
+           4. BRAND INTRODUCTION
+        ========================= -->
+        <section class="section brand-intro reveal" id="intro">
+            <div class="container grid-2">
+                <div class="brand-intro-text">
+                    <span class="section-tag" data-en="Our Essence" data-sw="Asili Yetu">Our Essence</span>
+                    <h2 data-en="Celebrating Heritage Through Sophisticated Design" data-sw="Kusherehekea Urithi Kupitia Muundo wa Kifahari">Celebrating Heritage Through Sophisticated Design</h2>
+                    <p data-en="At Madam Rita, we transform vibrant African prints and premium fabrics into wearable art. Every seam reflects a dedication to authentic cultural expression, structural elegance, and unparalleled personal service." data-sw="Huko Msangi Textiles, tunabadilisha vitambaa vya kupendeza vya Kiafrika na vitambaa vya ubora kuwa sanaa inayoweza kuvaliwa. Kila ushonaji unaonyesha kujitolea kwa kujieleza kwa kitamaduni halisi, umaridadi wa kiundo, na huduma ya kibinafsi isiyo na kifani.">At Msangi Textiles, we transform vibrant African prints and premium fabrics into wearable art. Every seam reflects a dedication to authentic cultural expression, structural elegance, and unparalleled personal service.</p>
+                    <p data-en="From bespoke tailoring to curated ready-to-wear pieces, our philosophy is anchored in uncompromising quality and timeless sophistication." data-sw="Kutoka ushonaji maalum hadi vipande vilivyotengenezwa tayari, falsasafa yetu imejikita katika ubora usiokubali maelewano na umaridadi usio na kikomo cha wakati.">From bespoke tailoring to curated ready-to-wear pieces, our philosophy is anchored in uncompromising quality and timeless sophistication.</p>
+                    <div class="brand-highlights">
+                        <div class="highlight-item">
+                            <strong>100%</strong>
+                            <span data-en="Authentic Textiles" data-sw="Vitambaa Halisi">Authentic Textiles</span>
+                        </div>
+                        <div class="highlight-item">
+                            <strong data-en="Bespoke" data-sw="Maalum">Bespoke</strong>
+                            <span data-en="Custom Tailoring" data-sw="Ushonaji Maalum">Custom Tailoring</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-intro-image">
+                    <img src="assets/images/about/vitenge-vizuri18.JPG" alt="Madam Rita fashion atelier overview" loading="lazy" width="800" height="1000">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           5. FEATURED COLLECTION
+        ========================= -->
+        <section class="section bg-light reveal" id="collections">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Curated Selection" data-sw="Uteuzi Maalum">Curated Selection</span>
+                    <h2 data-en="Featured Vitenge Designs" data-sw="Miundo Maalum ya Vitenge">Featured Vitenge Designs</h2>
+                    <p class="section-desc" data-en="Handpicked statement pieces from our latest luxury capsule." data-sw="Vipande maalum vilivyochaguliwa kwa mkono kutoka kwa mkusanyiko wetu wa hivi karibuni wa kifahari.">Handpicked statement pieces from our latest luxury capsule.</p>
+                </div>
+
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri9.JPG" alt="Vitenge dress design" loading="lazy" width="800" height="1000">
+                            <span class="product-badge" data-en="New" data-sw="Mpya">New</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="Women's Collection" data-sw="Mkusanyiko wa Wanawake">Women's Collection</span>
+                            <h3 class="product-title" data-en="Royal Vitenge Midi Dress" data-sw="Nguo ya Midi ya Vitenge ya Kifalme">Royal Vitenge Midi Dress</h3>
+                            <p class="product-excerpt" data-en="A structured silhouette accented with vibrant motifs." data-sw="Muundo uliopangilia vizuri uliopambwa kwa michoro ya kuvutia.">A structured silhouette accented with vibrant motifs.</p>
+                            <div class="product-footer">
+                                <span class="product-price">20,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 2 -->
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri2.JPG" alt="African print shirt" loading="lazy" width="800" height="1000">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="Men's Collection" data-sw="Mkusanyiko wa Wanaume">Men's Collection</span>
+                            <h3 class="product-title" data-en="Heritage Print Shirt" data-sw="Shati ya Urithi wa Kikabila">Heritage Print Shirt</h3>
+                            <p class="product-excerpt" data-en="Tailored comfort infused with rich geometric patterns." data-sw="Faraja iliyoshonwa ikijumuisha michoro tajiri ya kijiometri.">Tailored comfort infused with rich geometric patterns.</p>
+                            <div class="product-footer">
+                                <span class="product-price">15,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product Card 3 -->
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri6.JPG" alt="Contemporary Vitenge gown" loading="lazy" width="800" height="1000">
+                            <span class="product-badge" data-en="Exclusive" data-sw="Maalum Sana">Exclusive</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="Special Occasion" data-sw="Matukio Maalum">Special Occasion</span>
+                            <h3 class="product-title" data-en="Contemporary Evening Gown" data-sw="Gauni la Kisasa la Jioni">Contemporary Evening Gown</h3>
+                            <p class="product-excerpt" data-en="Flowing lines engineered for graceful movement." data-sw="Mistari inayotiririka iliyoundwa kwa ajili ya mwendo wa neema.">Flowing lines engineered for graceful movement.</p>
+                            <div class="product-footer">
+                                <span class="product-price">30,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           6. COLLECTION CATEGORIES
+        ========================= -->
+        <section class="section categories-section reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Explore By Category" data-sw="Chunguza Kulingana na Aina">Explore By Category</span>
+                    <h2 data-en="Tailored For Every Wardrobe" data-sw="Imeandaliwa kwa Kila Kabati">Tailored For Every Wardrobe</h2>
+                </div>
+                <div class="categories-grid">
+                    <a href="#contact" class="category-card">
+                        <img src="assets/images/products/vitenge-vizuri13.JPG" alt="Women clothing" loading="lazy" width="600" height="800">
+                        <div class="category-overlay">
+                            <h3 data-en="Women's Wear" data-sw="Mavazi ya Wanawake">Women's Wear</h3>
+                            <span data-en="Discover &rarr;" data-sw="Gundua &rarr;">Discover &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#contact" class="category-card">
+                        <img src="assets/images/products/vitenge-vizuri4.JPG" alt="Men clothing" loading="lazy" width="600" height="800">
+                        <div class="category-overlay">
+                            <h3 data-en="Men's Wear" data-sw="Mavazi ya Wanaume">Men's Wear</h3>
+                            <span data-en="Discover &rarr;" data-sw="Gundua &rarr;">Discover &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#contact" class="category-card">
+                        <img src="assets/images/gallery/vitenge-vizuri8.JPG" alt="Custom designs" loading="lazy" width="600" height="800">
+                        <div class="category-overlay">
+                            <h3 data-en="Custom Designs" data-sw="Miundo Maalum">Custom Designs</h3>
+                            <span data-en="Discover &rarr;" data-sw="Gundua &rarr;">Discover &rarr;</span>
+                        </div>
+                    </a>
+                    <a href="#contact" class="category-card">
+                        <img src="assets/images/gallery/vitenge-vizuri15.JPG" alt="Fabrics and patterns" loading="lazy" width="600" height="800">
+                        <div class="category-overlay">
+                            <h3 data-en="Fabrics & Patterns" data-sw="Vitambaa na Michoro">Fabrics & Patterns</h3>
+                            <span data-en="Discover &rarr;" data-sw="Gundua &rarr;">Discover &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           7. LARGE EDITORIAL SECTION
+        ========================= -->
+        <section class="editorial-section reveal">
+            <div class="editorial-bg">
+                <img src="assets/images/gallery/vitenge-vizuri8.JPG" alt="Fashion editorial shoot" loading="lazy" width="1920" height="1080">
+                <div class="editorial-overlay"></div>
+            </div>
+            <div class="container editorial-content text-center">
+                <span class="section-tag light" data-en="Editorial Showcase" data-sw="Maonyesho ya Wahariri">Editorial Showcase</span>
+                <h2 data-en="The Art of Bold Expression" data-sw="Sanaa ya Kujieleza kwa Ujasiri">The Art of Bold Expression</h2>
+                <p data-en="Fashion is a narrative told in color, texture, and silhouette. Step inside our world of high-end African couture." data-sw="Mitindo ni simulizi inayotolewa kupitia rangi, muundo, na umbo. Ingia katika ulimwengu wetu wa mitindo ya juu ya Kiafrika.">Fashion is a narrative told in color, texture, and silhouette. Step inside our world of high-end African couture.</p>
+                <a href="#gallery" class="btn btn-outline-light" data-en="View Full Editorial" data-sw="Tazama Ukurasa Kamili">View Full Editorial</a>
+            </div>
+        </section>
+
+        <!-- =========================
+           8. VITENGE STORY / CULTURE SECTION
+        ========================= -->
+        <section class="section culture-section reveal">
+            <div class="container grid-2">
+                <div class="culture-text">
+                    <span class="section-tag" data-en="Cultural Heritage" data-sw="Urithi wa Kitamaduni">Cultural Heritage</span>
+                    <h2 data-en="The Story Behind The Fabric" data-sw="Hadithi Nyuma ya Kitambaa">The Story Behind The Fabric</h2>
+                    <p data-en="Vitenge is more than just fabric; it is a vibrant canvas of storytelling, identity, and legacy. Every motif communicates heritage, celebration, and individuality." data-sw="Vitenge ni zaidi ya kitambaa tu; ni turubai hai ya hadithi, utambulisho, na urithi. Kila muundo unawasilisha urithi, sherehe, na uhusika binafsi.">Vitenge is more than just fabric; it is a vibrant canvas of storytelling, identity, and legacy. Every motif communicates heritage, celebration, and individuality.</p>
+                    <p data-en="We honor traditional textile arts by integrating them into contemporary silhouettes, ensuring that your attire carries deep meaning alongside modern sophistication." data-sw="Tunaheshimu sanaa ya kitamaduni ya nguo kwa kuziunganisha na mitindo ya kisasa, tukihakikisha kuwa mavazi yako yana maana kubwa pamoja na umaridadi wa kisasa.">We honor traditional textile arts by integrating them into contemporary silhouettes, ensuring that your attire carries deep meaning alongside modern sophistication.</p>
+                </div>
+                <div class="culture-image">
+                    <img src="assets/images/gallery/vitenge-vizuri5.JPG" alt="Rich Vitenge patterns and textures" loading="lazy" width="800" height="1000">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           9. CRAFTSMANSHIP SECTION
+        ========================= -->
+        <section class="section bg-light reveal" id="craftsmanship">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Mastery in Detail" data-sw="Ufundi katika Kila Kina">Mastery in Detail</span>
+                    <h2 data-en="Our Craftsmanship Process" data-sw="Mchakato Wetu wa Ufundi">Our Craftsmanship Process</h2>
+                    <p class="section-desc" data-en="From raw textile selection to the final master stitch." data-sw="Kutoka uchaguzi wa kitambaa hadi mshono wa mwisho wa kitaalam.">From raw textile selection to the final master stitch.</p>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-card reveal">
+                        <span class="process-number">01</span>
+                        <h3 data-en="Selection" data-sw="Uchaguzi">Selection</h3>
+                        <p data-en="Sourcing premium, vibrant, and durable fabrics that meet our luxury standards." data-sw="Kutafuta vitambaa bora, vya kupendeza, na vya kudumu vinavyokidhi viwango vyetu vya kifahari.">Sourcing premium, vibrant, and durable fabrics that meet our luxury standards.</p>
+                    </div>
+                    <div class="process-card reveal">
+                        <span class="process-number">02</span>
+                        <h3 data-en="Design & Fit" data-sw="Muundo na Vipimo">Design & Fit</h3>
+                        <p data-en="Drafting precise patterns customized to your individual measurements and structure." data-sw="Kutengeneza michoro sahihi iliyobinafsishwa kulingana na vipimo na muundo wako wa mwili.">Drafting precise patterns customized to your individual measurements and structure.</p>
+                    </div>
+                    <div class="process-card reveal">
+                        <span class="process-number">03</span>
+                        <h3 data-en="Tailoring" data-sw="Kushona">Tailoring</h3>
+                        <p data-en="Meticulous hand-sewing and structural finishing by seasoned artisan tailors." data-sw="Ushonaji makini wa mikono na umaliziaji wa kiundo unaofanywa na mafundi wazoefu.">Meticulous hand-sewing and structural finishing by seasoned artisan tailors.</p>
+                    </div>
+                    <div class="process-card reveal">
+                        <span class="process-number">04</span>
+                        <h3 data-en="Final Reveal" data-sw="Ufunuo wa Mwisho">Final Reveal</h3>
+                        <p data-en="Rigorous quality checks before delivering your breathtaking bespoke garment." data-sw="Ukaguzi mkali wa ubora kabla ya kukabidhi vazi lako maalum lenye kuvutia.">Rigorous quality checks before delivering your breathtaking bespoke garment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           10. PRODUCT GALLERY & 11. COLOUR STORIES
+        ========================= -->
+        <section class="section reveal" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Visual Archive" data-sw="Hifadhi ya Picha">Visual Archive</span>
+                    <h2 data-en="Gallery & Colour Stories" data-sw="Nyumba ya Sanaa na Hadithi za Rangi">Gallery & Colour Stories</h2>
+                    <p class="section-desc" data-en="Click any image to expand and explore our aesthetic up close." data-sw="Bonyeza picha yoyote ili kuipanua na kuchunguza urembo wetu kwa karibu.">Click any image to expand and explore our aesthetic up close.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <button class="gallery-item reveal" type="button" aria-label="Expand image">
+                        <img src="assets/images/gallery/vitenge-vizuri1.JPG" alt="Vitenge fashion look 1" loading="lazy" width="800" height="1000">
+                        <span class="gallery-caption" data-en="Vitenge Styling 01" data-sw="Mtindo wa Vitenge 01">Vitenge Styling 01</span>
+                    </button>
+                    <button class="gallery-item reveal" type="button" aria-label="Expand image">
+                        <img src="assets/images/gallery/vitenge-vizuri2.JPG" alt="Vitenge fashion look 2" loading="lazy" width="800" height="1000">
+                        <span class="gallery-caption" data-en="Vitenge Styling 02" data-sw="Mtindo wa Vitenge 02">Vitenge Styling 02</span>
+                    </button>
+                    <button class="gallery-item reveal" type="button" aria-label="Expand image">
+                        <img src="assets/images/gallery/vitenge-vizuri16.JPG" alt="Vitenge fashion look 3" loading="lazy" width="800" height="1000">
+                        <span class="gallery-caption" data-en="Vitenge Styling 03" data-sw="Mtindo wa Vitenge 03">Vitenge Styling 03</span>
+                    </button>
+                    <button class="gallery-item reveal" type="button" aria-label="Expand image">
+                        <img src="assets/images/gallery/vitenge-vizuri10.JPG" alt="Colour Story pattern" loading="lazy" width="800" height="1000">
+                        <span class="gallery-caption" data-en="Colour Stories" data-sw="Hadithi za Rangi">Colour Stories</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           12. NEW ARRIVALS & 13. BEST SELLERS
+        ========================= -->
+        <section class="section bg-light reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Latest & Greatest" data-sw="Vipya na Vilivyouzwa Zaidi">Latest & Greatest</span>
+                    <h2 data-en="New Arrivals & Best Sellers" data-sw="Bidhaa Mpya na Zinazouzwa Zaidi">New Arrivals & Best Sellers</h2>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri11.JPG" alt="Elegant Vitenge set" loading="lazy" width="800" height="1000">
+                            <span class="product-badge" data-en="Popular" data-sw="Maarufu">Popular</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="Best Seller" data-sw="Inayouzwa Zaidi">Best Seller</span>
+                            <h3 class="product-title" data-en="Signature Two-Piece Set" data-sw="Seti ya Vipande Viliwili Maalum">Signature Two-Piece Set</h3>
+                            <p class="product-excerpt" data-en="A harmonious blend of tailored chic and vibrant tradition." data-sw="Mchanganyiko mzuri wa mtindo wa kisasa na jadi ya kuvutia.">A harmonious blend of tailored chic and vibrant tradition.</p>
+                            <div class="product-footer">
+                                <span class="product-price">12,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri4.JPG" alt="African print skirt" loading="lazy" width="800" height="1000">
+                            <span class="product-badge" data-en="New" data-sw="Mpya">New</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="New Arrival" data-sw="Ujio Mpya">New Arrival</span>
+                            <h3 class="product-title" data-en="Pleated Print Skirt" data-sw="Sketi ya Makunjo Yenye Picha">Pleated Print Skirt</h3>
+                            <p class="product-excerpt" data-en="Versatile elegance designed for effortless daytime transitions." data-sw="Urembo wa aina nyingi ulioundwa kwa ajili ya matembezi rahisi ya mchana.">Versatile elegance designed for effortless daytime transitions.</p>
+                            <div class="product-footer">
+                                <span class="product-price">25,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card reveal">
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/products/vitenge-vizuri12.JPG" alt="Custom gown" loading="lazy" width="800" height="1000">
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category" data-en="Best Seller" data-sw="Inayouzwa Zaidi">Best Seller</span>
+                            <h3 class="product-title" data-en="Regal Maxi Silhouette" data-sw="Gauni Refu la Kifalme">Regal Maxi Silhouette</h3>
+                            <p class="product-excerpt" data-en="Commanding presence crafted with exquisite detailing." data-sw="Mwonekano wenye mvuto uliotengenezwa kwa maelezo ya kipekee.">Commanding presence crafted with exquisite detailing.</p>
+                            <div class="product-footer">
+                                <span class="product-price">32,000Tsh</span>
+                                <a href="#contact" class="btn-text" data-en="Inquire &rarr;" data-sw="Uliza &rarr;">Inquire &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           14. CUSTOM ORDERS & 15. OCCASION SECTION
+        ========================= -->
+        <section class="section custom-orders-section reveal">
+            <div class="container grid-2">
+                <div class="custom-content">
+                    <span class="section-tag" data-en="Bespoke Experience" data-sw="Uzoefu Maalum">Bespoke Experience</span>
+                    <h2 data-en="Request a Custom Design" data-sw="Omba Muundo Maalum">Request a Custom Design</h2>
+                    <p data-en="Have a specific vision, measurement profile, or special occasion in mind? We specialize in turning your dream outfit into a reality." data-sw="Una maono maalum, vipimo, au tukio maalum akilini? Sisi ni wataalam wa kufanya vazi lako la ndoto kuwa kweli.">Have a specific vision, measurement profile, or special occasion in mind? We specialize in turning your dream outfit into a reality.</p>
+                    <ul class="custom-list">
+                        <li data-en="Personalized consultations & custom measurements" data-sw="Ushauri wa kibinafsi na vipimo maalum">Personalized consultations & custom measurements</li>
+                        <li data-en="Exclusive fabric selection tailored to your taste" data-sw="Uteuzi wa vitambaa maalum kulingana na ladha yako">Exclusive fabric selection tailored to your taste</li>
+                        <li data-en="Perfect fit for weddings, galas, and celebrations" data-sw="Ufaafu kamili kwa harusi, sherehe za kifahari, na mikutano">Perfect fit for weddings, galas, and celebrations</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" data-en="Start Your Custom Order" data-sw="Anzisha Oda Yako Maalum">Start Your Custom Order</a>
+                </div>
+                <div class="occasions-grid">
+                    <div class="occasion-card reveal">
+                        <h4 data-en="Weddings & Celebrations" data-sw="Harusi na Sherehe">Weddings & Celebrations</h4>
+                        <p data-en="Stand out with breathtaking coordination and majestic tailoring." data-sw="Simama nje kwa uratibu wa kupendeza na ushonaji wa kifalme.">Stand out with breathtaking coordination and majestic tailoring.</p>
+                    </div>
+                    <div class="occasion-card reveal">
+                        <h4 data-en="Cultural Events" data-sw="Matukio ya Kitamaduni">Cultural Events</h4>
+                        <p data-en="Celebrate your roots with refined authenticity and modern flair." data-sw="Sherehekea asili yako kwa uhalisia uliosafishwa na mtindo wa kisasa.">Celebrate your roots with refined authenticity and modern flair.</p>
+                    </div>
+                    <div class="occasion-card reveal">
+                        <h4 data-en="Everyday Luxury" data-sw="Anasa ya Kila Siku">Everyday Luxury</h4>
+                        <p data-en="Elevate your professional and casual wardrobe effortlessly." data-sw="Pandisha hadhi ya kabati lako la kazini na la kawaida kwa urahisi.">Elevate your professional and casual wardrobe effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- =========================
+            16. ABOUT MSANGI TEXTILES & 18. BRAND VALUES
+        ========================= -->
+        <section class="section bg-light reveal" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="The Visionary" data-sw="Mwanzilishi">The Visionary</span>
+                    <h2 data-en="About Madam Rita" data-sw="Kuhusu Madam Rita">About Madam Rita</h2>
+                    <p class="section-desc" data-en="Rooted in passion, driven by immaculate craftsmanship." data-sw="Imejikita katika shauku, inaongozwa na ufundi usio na dosari.">Rooted in passion, driven by immaculate craftsmanship.</p>
+                </div>
+
+                <div class="about-content-box grid-2">
+                    <!-- 🛑 UPDATED: Replaced single img with a dual-image wrapper for both separate photos -->
+                    <div class="about-portrait">
+                        <div class="about-duo-wrapper">
+                            <div class="duo-photo-frame">
+                                <img src="assets/images/about/madamritha.JPG" alt="Madam Rita founder portrait" loading="lazy" width="800" height="1000">
+                                <span class="duo-label" data-en="Madam Rita" data-sw="Madam Rita">Madam Rita</span>
+                            </div>
+                            <div class="duo-photo-frame">
+                                <img src="assets/images/about/husband.PNG" alt="Co-Founder portrait" loading="lazy" width="800" height="1000">
+                                <span class="duo-label" data-en="Co-Founder" data-sw="Mwanzilishi Mwenza">Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-story">
+                        <h3>FOUNDER STORY & VISION</h3>
+                        <p data-en="Msangi Textiles’s journey in fashion is built on a deep admiration for African textiles and uncompromising attention to detail. Every garment represents a bridge between generational craftsmanship and modern luxury wear." data-sw="Safari ya Madam Rita katika mitindo imejengwa juu ya shauku kubwa kwa vitambaa vya Kiafrika na uangalifu usioyumba kwa undani. Kila vazi linawakilisha daraja kati ya ufundi wa kijeshi wa vizazi na mavazi ya kifahari ya kisasa.">Msangi Textiles’s journey in fashion is built on a deep admiration for African textiles and uncompromising attention to detail. Every garment represents a bridge between generational craftsmanship and modern luxury wear.</p>
+                        <p data-en="Our commitment extends beyond clothing—we aim to provide an intimate, elevated styling experience that makes every client feel empowered, confident, and distinct." data-sw="Kujitolea kwetu kunaenea zaidi ya mavazi—tunalenga kutoa uzoefu wa kipekee wa mitindo unaomfanya kila mteja ajisikie mwenye nguvu, ujasiri, na wa pekee.">Our commitment extends beyond clothing—we aim to provide an intimate, elevated styling experience that makes every client feel empowered, confident, and distinct.</p>
+                    </div>
+                </div>
+
+                <!-- Brand Values -->
+                <div class="values-grid">
+                    <div class="value-card reveal">
+                        <h4 data-en="Uncompromising Quality" data-sw="Ubora Usio na Masharti">Uncompromising Quality</h4>
+                        <p data-en="Every seam and fabric choice undergoes strict quality verification." data-sw="Kila ushonaji na chaguo la kitambaa hupitia ukaguzi mkali wa ubora.">Every seam and fabric choice undergoes strict quality verification.</p>
+                    </div>
+                    <div class="value-card reveal">
+                        <h4 data-en="Authentic Heritage" data-sw="Urithi Halisi">Authentic Heritage</h4>
+                        <p data-en="Honoring African textile traditions with modern structural artistry." data-sw="Kuheshimu mila za nguo za Kiafrika na sanaa ya kiundo ya kisasa.">Honoring African textile traditions with modern structural artistry.</p>
+                    </div>
+                    <div class="value-card reveal">
+                        <h4 data-en="Client-Centric Care" data-sw="Huduma Inayomjali Mteja">Client-Centric Care</h4>
+                        <p data-en="Personalized attention dedicated to your individual style journey." data-sw="Uangalifu wa kibinafsi uliowekwa kwa ajili ya safari yako ya mtindo binafsi.">Personalized attention dedicated to your individual style journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           17. TESTIMONIALS
+        ========================= -->
+        <section class="section reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Client Words" data-sw="Maneno ya Wateja">Client Words</span>
+                    <h2 data-en="Reflections of Elegance" data-sw="Maoni ya Urembo">Reflections of Elegance</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card reveal">
+                        <p class="testimonial-quote" data-en="&quot;The craftsmanship and fit of my custom dress were beyond anything I imagined. Wearing Madam Rita's design made me feel exceptionally regal.&quot;" data-sw="&quot;Ufundi na ufaafu wa nguo yangu maalum vilikuwa zaidi ya nilivyofikiria. Kuvaa muundo wa Madam Rita kulinifanya nijisikie kama malkia wa kifalme.&quot;">"The craftsmanship and fit of my custom dress were beyond anything I imagined. Wearing Madam Rita's design made me feel exceptionally regal."</p>
+                        <span class="testimonial-author">Marry Mpasse</span>
+                    </div>
+                    <div class="testimonial-card reveal">
+                        <p class="testimonial-quote" data-en="&quot;An absolute pleasure to work with. The attention to detail and cultural elegance woven into the clothing is truly world-class.&quot;" data-sw="&quot;Ni furaha kubwa kufanya kazi naye. Uangalifu kwa undani na umaridadi wa kitamaduni ulioshonwa ndani ya nguo ni wa kiwango cha kimataifa kweli.&quot;">"An absolute pleasure to work with. The attention to detail and cultural elegance woven into the clothing is truly world-class."</p>
+                        <span class="testimonial-author">Nico Selu</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           19. INSTAGRAM / SOCIAL-STYLE GALLERY
+        ========================= -->
+        <section class="section bg-light reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Social Aesthetic" data-sw="Mtindo wa Kijamii">Social Aesthetic</span>
+                    <h2 data-en="Follow Our Journey" data-sw="Fuata Safari Yetu">Follow Our Journey</h2>
+                    <p class="section-desc" data-en="Glimpses from our atelier and client moments." data-sw="Picha mbalimbali kutoka karakana yetu na matukio ya wateja.">Glimpses from our atelier and client moments.</p>
+                </div>
+                <div class="social-grid">
+                    <div class="social-item reveal">
+                        <img src="assets/images/gallery/vitenge-vizuri15.JPG" alt="Social post 1" loading="lazy" width="600" height="600">
+                    </div>
+                    <div class="social-item reveal">
+                        <img src="assets/images/gallery/vitenge-vizuri6.JPG" alt="Social post 2" loading="lazy" width="600" height="600">
+                    </div>
+                    <div class="social-item reveal">
+                        <img src="assets/images/gallery/vitenge-vizuri2.JPG" alt="Social post 3" loading="lazy" width="600" height="600">
+                    </div>
+                    <div class="social-item reveal">
+                        <img src="assets/images/products/vitenge-vizuri1.JPG" alt="Social post 4" loading="lazy" width="600" height="600">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+           20. CONTACT SECTION
+        ========================= -->
+        <section class="section contact-section reveal" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag" data-en="Get in Touch" data-sw="Wasiliana Nasi">Get in Touch</span>
+                    <h2 data-en="Connect With Msangi Textiles" data-sw="Ungana na Msangi Textiles">Connect With Msangi Textiles</h2>
+                    <p class="section-desc" data-en="Ready to order or schedule a consultation? Reach out directly." data-sw="Uko tayari kuagiza au kupanga mkutano? Wasiliana nasi moja kwa moja.">Ready to order or schedule a consultation? Reach out directly.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-box">
+                        <h3 data-en="Atelier Details" data-sw="Maelezo ya Karakana">Atelier Details</h3>
+                        <ul class="contact-list">
+                            <li><strong data-en="Phone:" data-sw="Simu:">Phone:</strong> +255 755 765 573</li>
+                            <li><strong data-en="WhatsApp:" data-sw="WhatsApp:">WhatsApp:</strong> +255 755 765 573</li>
+                            <li><strong data-en="Email:" data-sw="Barua pepe:">Email:</strong> Acegssthp@gmail.com</li>
+                            <li><strong data-en="Location:" data-sw="Mahali:">Location:</strong> Mnazi Mmoja Kitumbini in Dar es Salaam, Tanzania, situated opposite the traffic lights (mataa ya mnazi) and near NBC Bank.</li>
+                            <li><strong data-en="Hours:" data-sw="Masaa ya Kazi:">Hours:</strong> <span data-en="Mon - Sat: 06:00 AM - 07:00 PM" data-sw="Jumatatu - Jumamosi: Saa 3 Asubuhi - Saa 12 Jioni">Mon - Sat: 9:00 AM - 6:00 PM</span></li>
+                        </ul>
+                        <div class="contact-action-buttons">
+                            <a href="https://wa.me/255755765573" class="btn btn-primary" target="_blank" rel="noopener" data-en="Chat on WhatsApp" data-sw="Ongea kupitia WhatsApp">Chat on WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="https://formspree.io/f/xjybywlp" method="POST">
+                        <div class="form-group">
+                            <label for="name" data-en="Your Name" data-sw="Jina Lako">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-en="Your Email / Phone" data-sw="Barua pepe / Simu Yako">Your Email / Phone</label>
+                            <input type="text" id="email" name="_replyto" required placeholder="Enter email or phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-en="Your Inquiry / Custom Order Details" data-sw="Ujumbe Wako / Maelezo ya Oda Maalum">Your Inquiry / Custom Order Details</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe what you are looking for..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" data-en="Send Message" data-sw="Tuma Ujumbe">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================
+       21. FOOTER
+    ========================= -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>Msangi Textiles</h3>
+                <p data-en="Luxury African fashion and bespoke Vitenge wear crafted with passion and precision." data-sw="Mitindo ya kifahari ya Kiafrika na mavazi maalum ya Vitenge yaliyotengenezwa kwa shauku na usahihi mkubwa.">Luxury African fashion and bespoke Vitenge wear crafted with passion and precision.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-en="Quick Links" data-sw="Viungo vya Haraka">Quick Links</h4>
+                <ul>
+                    <li><a href="#collections" data-en="Collections" data-sw="Makusanyo">Collections</a></li>
+                    <li><a href="#about" data-en="About" data-sw="Kuhusu">About</a></li>
+                    <li><a href="#gallery" data-en="Gallery" data-sw="Nyumba ya Sanaa">Gallery</a></li>
+                    <li><a href="#contact" data-en="Contact" data-sw="Mawasiliano">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4 data-en="Connect" data-sw="Mtandao">Connect</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/msangi_textiles1/" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@madam_ritha" target="_blank" rel="noopener">TikTok</a></li>
+                    <li><a href="https://wa.me/255755765573" target="_blank" rel="noopener">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p data-en="&copy; 2026 Msangi Textiles. All rights reserved." data-sw="&copy; 2026 Msangi Textiles. Haki zote zimehifadhiwa.">&copy; 2026 Msangi Textiles. All rights reserved.</p>
+                <button id="backToTop" class="back-to-top" aria-label="Back to top" data-en="Back to top &uarr;" data-sw="Rudi juu &uarr;">Back to top &uarr;</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal Container -->
+    <div class="lightbox-modal" id="lightboxModal" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <img src="vitenge-vizuri9.JPG" alt="Expanded view" id="lightboxImg">
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
 </body>
 </html>
